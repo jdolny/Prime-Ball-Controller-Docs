@@ -1,0 +1,50 @@
+site_name: Prime Ball Controller
+theme: readthedocs
+markdown_extensions:
+  - codehilite:
+      guess_lang: true
+  - toc:
+      permalink: true
+  - attr_list
+  - admonition
+  - abbr
+  - pymdownx.mark
+  - pymdownx.magiclink
+
+nav:
+- 'Welcome': index.md
+- 'Playable Demo': http://primeballcontroller.com/demo
+- 'Download from Unity Asset Store': https://assetstore.unity.com/
+- 'Help and Support': support.md
+- 'Roadmap ': roadmap.md
+- 'Getting Started':
+  - 'Installation / Setup': installation/installation-overview.md
+  - 'Basic Setup': installation/basic-installation.md
+  - 'Detailed Setup': installation/detailed-installation.md
+  - 'Setup With Existing Cinemachine': installation/installation-previous-cinemachine.md
+- 'Player Sphere Controller Options': 
+  - 'Overview': controller_options/overview.md
+  - 'Input Mapping': controller_options/input-mapping.md
+  - 'Cinemachine Cameras': controller_options/cinemachine.md
+  - 'Standard Camera Settings': controller_options/standard-camera-settings.md
+  - 'Sphere Player': controller_options/sphere-player.md
+  - 'Sphere Movement': controller_options/sphere-movement.md
+  - 'Sphere Abilities': controller_options/sphere-abilities.md
+  - 'Mesh Rotation': controller_options/mesh-rotation.md
+  - 'Roll Audio': controller_options/roll-audio.md
+- 'Camera Zones': 
+  - 'Overview': camera_zones/overview.md
+  - 'Creating A Camera Zone': camera_zones/create-zone.md
+  - 'Camera Zone Options': camera_zones/camera-zone-options.md
+- 'Modifying The Sphere Mesh':
+  - 'Change Size / Color': modify_mesh/size-color.md
+  - 'Using Your Own Mesh': modify_mesh/custom-mesh.md
+- 'Modifying The PlayerSphere Object':
+  - 'Structure Overview': playersphere_object/structure-overview.md
+- 'Scripts':
+  - 'Overview': scripts/overview.md
+  - 'Component Scripts': scripts/components.md
+  - 'Controller Scripts': scripts/controllers.md
+  - 'Manager Scripts': scripts/managers.md
+  - 'Model Scripts': scripts/models.md
+extra_css: [style.css]
