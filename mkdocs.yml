@@ -41,10 +41,5 @@ nav:
   - 'Using Your Own Mesh': modify_mesh/custom-mesh.md
 - 'Modifying The PlayerSphere Object':
   - 'Structure Overview': playersphere_object/structure-overview.md
-- 'Scripts':
-  - 'Overview': scripts/overview.md
-  - 'Component Scripts': scripts/components.md
-  - 'Controller Scripts': scripts/controllers.md
-  - 'Manager Scripts': scripts/managers.md
-  - 'Model Scripts': scripts/models.md
+
 extra_css: [style.css]
