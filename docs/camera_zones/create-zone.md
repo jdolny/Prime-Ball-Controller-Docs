@@ -32,4 +32,4 @@ There are multiple ways you could create camera zones.  This is just an example 
 7.  Your finished zone should look something like this<br/.>
 ![Camera Zone 8](../images/camerazone8.png)
 
-Your zone is finished.  Continue on to the next section for an explanation of each zone option.
+Your zone is finished.

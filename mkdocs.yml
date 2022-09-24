@@ -14,14 +14,16 @@ markdown_extensions:
 nav:
 - 'Welcome': index.md
 - 'Playable Demo': http://primeballcontroller.com/demo
-- 'Download from Unity Asset Store': https://assetstore.unity.com/
+- 'Download from Unity Asset Store': https://assetstore.unity.com/packages/tools/physics/prime-ball-controller-229154/
 - 'Help and Support': support.md
-- 'Roadmap ': roadmap.md
+- 'Roadmap': roadmap.md
+- 'Release History ': release-history.md
 - 'Getting Started':
   - 'Installation / Setup': installation/installation-overview.md
   - 'Basic Setup': installation/basic-installation.md
   - 'Detailed Setup': installation/detailed-installation.md
   - 'Setup With Existing Cinemachine': installation/installation-previous-cinemachine.md
+  - 'Using Different Render Pipelines': installation/builtin-urp-hdrp.md
 - 'Player Sphere Controller Options': 
   - 'Overview': controller_options/overview.md
   - 'Input Mapping': controller_options/input-mapping.md

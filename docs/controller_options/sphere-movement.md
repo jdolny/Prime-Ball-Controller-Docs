@@ -5,6 +5,7 @@ These settings control all of the aspects of movement.  There are seperate setti
 - **Control Mode** - The control mode of the sphere.  Hybrid mode starts off as ball movement and transitions to wheel as the player speeds up.  Hybrid is recommended.
 - **Ball Brake Rate** - When the control mode is currently ball, the rate at which the sphere comes to a stop when no input is received
 - **Control Switch Steps** - When the control mode is set to hybrid, this controls how many steps must pass before control switches from ball to wheel
+- **MinimumControlSwitchSpeed** - The minimum speed the ball must be rolling in order to switch to Wheel mode, when the control mode is set to hybrid.  This setting is used with Control Switch Steps to provide more control over how the sphere transitions from ball to wheel control.
 - **Step Reset Acceleration** - When the control mode is set to hybrid and the acceleration drops below this number, the control switches from wheel to ball
 - **Wheel Direction Curve** - When the control mode is currently wheel, this controls how tight the sphere orbits the camera when the player is pressing directly left or directly right
 - **Wheel Rotation Velocity** - When the control mode is currently wheel, this controls how long it takes for the sphere to turn in the opposite direction

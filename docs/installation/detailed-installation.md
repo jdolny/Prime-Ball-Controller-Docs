@@ -19,8 +19,10 @@ This guide assumes you are new Unity user and will be somewhat painful for exper
 ![Pbc Install 2](../images/Installpbc2.png)
 3.  After the download is complete, select **Import**<br/>
 ![Pbc Install 3](../images/Installpbc3.png)
-4.  Another window will open where you can select **Import** again.<br/>
+4.  If a warning popus up about dependencies, it's just alerting you that Cinemachine will be installed automatically if you select Install/Upgrade.  If you select skip, you must install it manually, if not already.<br/>
 ![Pbc Install 4](../images/Installpbc4.png)
+5.  Another window will open where you can select **Import** again.<br/>
+![Pbc Install 5](../images/Installpbc5.png)
 
 
 ### 3.) Add the PlayerSphere prefab to your scene
@@ -37,7 +39,6 @@ If your project is already using Cinemachine and you need to keep your existing 
 1.  Find the Main Camera in your scene<br/>
 ![Prefab 1](../images/deletecamera1.png)
 2.  Select it and press delete
-
 
 
 Your Prime Ball Controller in now ready to use.  Add something for your ball to roll around on and give it a try.  Check the [Input Mapping Page](../../controller_options/input-mapping) for the default controls and directions to change them.

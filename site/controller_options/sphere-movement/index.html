@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Sphere Movement - Prime Ball Controller</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../../style.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Sphere Movement";
+        var mkdocs_page_input_path = "controller_options\\sphere-movement.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Prime Ball Controller
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Welcome</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="http://primeballcontroller.com/demo">Playable Demo</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="https://assetstore.unity.com/packages/tools/physics/prime-ball-controller-229154/">Download from Unity Asset Store</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../support/">Help and Support</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../roadmap/">Roadmap</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../release-history/">Release History </a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../installation/installation-overview/">Installation / Setup</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../installation/basic-installation/">Basic Setup</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../installation/detailed-installation/">Detailed Setup</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../installation/installation-previous-cinemachine/">Setup With Existing Cinemachine</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../installation/builtin-urp-hdrp/">Using Different Render Pipelines</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Player Sphere Controller Options</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../overview/">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../input-mapping/">Input Mapping</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../cinemachine/">Cinemachine Cameras</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../standard-camera-settings/">Standard Camera Settings</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../sphere-player/">Sphere Player</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Sphere Movement</a>
+    <ul class="current">
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../sphere-abilities/">Sphere Abilities</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../mesh-rotation/">Mesh Rotation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../roll-audio/">Roll Audio</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Camera Zones</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../camera_zones/overview/">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../camera_zones/create-zone/">Creating A Camera Zone</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../camera_zones/camera-zone-options/">Camera Zone Options</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Modifying The Sphere Mesh</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../modify_mesh/size-color/">Change Size / Color</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../modify_mesh/custom-mesh/">Using Your Own Mesh</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Modifying The PlayerSphere Object</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../playersphere_object/structure-overview/">Structure Overview</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Prime Ball Controller</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>Player Sphere Controller Options &raquo;</li>
+      <li>Sphere Movement</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="sphere-movement">Sphere Movement<a class="headerlink" href="#sphere-movement" title="Permanent link">&para;</a></h1>
+<p>These settings control all of the aspects of movement.  There are seperate settings for ball and wheel control modes to give advantages such as faster speed or higher slope limit for different modes.</p>
+<ul>
+<li><strong>Control Mode</strong> - The control mode of the sphere.  Hybrid mode starts off as ball movement and transitions to wheel as the player speeds up.  Hybrid is recommended.</li>
+<li><strong>Ball Brake Rate</strong> - When the control mode is currently ball, the rate at which the sphere comes to a stop when no input is received</li>
+<li><strong>Control Switch Steps</strong> - When the control mode is set to hybrid, this controls how many steps must pass before control switches from ball to wheel</li>
+<li><strong>MinimumControlSwitchSpeed</strong> - The minimum speed the ball must be rolling in order to switch to Wheel mode, when the control mode is set to hybrid.  This setting is used with Control Switch Steps to provide more control over how the sphere transitions from ball to wheel control.</li>
+<li><strong>Step Reset Acceleration</strong> - When the control mode is set to hybrid and the acceleration drops below this number, the control switches from wheel to ball</li>
+<li><strong>Wheel Direction Curve</strong> - When the control mode is currently wheel, this controls how tight the sphere orbits the camera when the player is pressing directly left or directly right</li>
+<li><strong>Wheel Rotation Velocity</strong> - When the control mode is currently wheel, this controls how long it takes for the sphere to turn in the opposite direction</li>
+<li><strong>Ball Movement / Wheel Movement</strong> - Movement properties specific for when the ball is in ball or wheel mode<ul>
+<li><strong>Movement Force</strong> - The force applied to move the sphere</li>
+<li><strong>Acceleration Rate</strong> - The rate at which to accelerate the sphere</li>
+<li><strong>Acceleration Reset Rate</strong> - The rate at which the acceleration is reset back to zero when no input is received</li>
+<li><strong>Drag</strong> - The sphere's rigidbody drag</li>
+<li><strong>Allow Air Control</strong> - Enable / Disable air control</li>
+<li><strong>Air Control Amount</strong> - The amount of air control.  Higher number gives more control.</li>
+<li><strong>Grounded Gravity Force</strong> - The force of gravity when the player is grounded</li>
+<li><strong>Initial Gravity Force</strong> - The force of gravity when the player first becomes ungrounded, before the increment amount has applied</li>
+<li><strong>Max Gravity Force</strong> - The maximum gravity force that can be applied</li>
+<li><strong>Gravity Increment Amount</strong> - The amount of additional gravity force to add while player is falling.</li>
+<li><strong>Max Slope Angle</strong> - The max slope angle that the sphere can roll up</li>
+<li><strong>Minimum Slip Angle</strong> - The minimum angle that will cause the sphere roll back down a slope</li>
+<li><strong>Max Angle Slip Multiplier</strong> - The force that prevents a player from going up a slope greater than the max slope angle.  If this number is low enough the player will be able roll up the slope if there is enough momentum</li>
+<li><strong>Minimum Slope Angle Modifier</strong> - The minimum angle required for a player to be considered on a slope, otherwise act as on flat ground</li>
+<li><strong>Slip Force</strong> - The force applied when slipping down a slope</li>
+<li><strong>Up Slope Speed</strong> - When going up a slope, controls if the player should go slower or at the same speed as when on flat ground</li>
+<li><strong>Down Slope Speed</strong> - When going down a slope, controls if the player should go faster or at the same speed as when on flat ground</li>
+<li><strong>Up Hill Multiplier</strong> - If up slope speed is set to slower, this controls how much slower to go</li>
+<li><strong>Down Hill Multiplier</strong> - If down slope speed is set to faster, this controls how much faster to go</li>
+<li><strong>Slope Land Slip</strong> - When jumping and landing on a slope, how much force should be transfered to roll back down.  Setting to 0 will cause the player to momentarily stick before the slip force is applied. Setting this value too high will cause the player to ricochet away from the slope when landing</li>
+<li><strong>Control Orientation</strong> - The player controls are based on the camera position.  This allows you to override the controls based on a different position</li>
+</ul>
+</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../sphere-player/" class="btn btn-neutral float-left" title="Sphere Player"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../sphere-abilities/" class="btn btn-neutral float-right" title="Sphere Abilities">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../sphere-player/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../sphere-abilities/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

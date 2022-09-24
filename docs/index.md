@@ -1,7 +1,7 @@
 # Welcome
 ![welcome](images/welcome.png)
 
-[Download from the Unity Asset Store](https://assetstore.unity.com/new-to-unity-asset-store){:target="_blank"}
+[Download from the Unity Asset Store](https://assetstore.unity.com/packages/tools/physics/prime-ball-controller-229154){:target="_blank"}
 
 [Playable WebGL Demo](http://primeballcontroller.com/demo){:target="_blank"}
 
