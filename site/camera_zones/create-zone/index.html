@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../../img/favicon.ico" />
-    <title>Creating A Camera Zone - Prime Ball Controller</title>
+    <title>Creating A Zone - Prime Ball Controller</title>
     <link rel="stylesheet" href="../../css/theme.css" />
     <link rel="stylesheet" href="../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
@@ -13,7 +13,7 @@
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Creating A Camera Zone";
+        var mkdocs_page_name = "Creating A Zone";
         var mkdocs_page_input_path = "camera_zones\\create-zone.md";
         var mkdocs_page_url = null;
       </script>
@@ -46,7 +46,7 @@
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="" href="http://primeballcontroller.com/demo">Playable Demo</a>
+                <li class="toctree-l1"><a class="reference internal" href="../../demo/demo/">Playable Demos</a>
                 </li>
               </ul>
               <ul>
@@ -77,41 +77,71 @@
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../../installation/builtin-urp-hdrp/">Using Different Render Pipelines</a>
                   </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../mobile/control/">Mobile Controls</a>
+                  </li>
               </ul>
-              <p class="caption"><span class="caption-text">Player Sphere Controller Options</span></p>
+              <p class="caption"><span class="caption-text">Demo Scenes</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../scenes/scenes/">Scenes</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Controller Options</span></p>
               <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../../controller_options/overview/">Overview</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../../controller_options/input-mapping/">Input Mapping</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../controller_options/cinemachine/">Cinemachine Cameras</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../controller_options/cinemachine/">Cameras</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../controller_options/standard-camera-settings/">Standard Camera Settings</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../controller_options/standard-camera-settings/">Free Look Camera</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../controller_options/sphere-player/">Sphere Player</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../controller_options/projectilecamera/">Projectile Camera</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../controller_options/sphere-movement/">Sphere Movement</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../controller_options/fpscamera/">Fps Camera</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../controller_options/sphere-abilities/">Sphere Abilities</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../controller_options/sphere-player/">Sphere</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../controller_options/mesh-rotation/">Mesh Rotation</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../controller_options/mesh-rotation/">Mesh</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../controller_options/roll-audio/">Roll Audio</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../controller_options/sphere-movement/">Movement</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../controller_options/gravity/">Gravity</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../controller_options/jump/">Jump</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../controller_options/boost/">Boost</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../controller_options/boostjump/">Boost Jump</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../controller_options/sprint/">Sprint</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../controller_options/magnet/">Magnet</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../controller_options/grappleswing/">Grapple Swing</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../controller_options/grapplehook/">Grapple Hook</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../controller_options/projectile/">Projectile</a>
                   </li>
               </ul>
-              <p class="caption"><span class="caption-text">Camera Zones</span></p>
+              <p class="caption"><span class="caption-text">Zones</span></p>
               <ul class="current">
                   <li class="toctree-l1"><a class="reference internal" href="../overview/">Overview</a>
                   </li>
-                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Creating A Camera Zone</a>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Creating A Zone</a>
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#1-create-the-zone-object">1.  Create The Zone Object</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#2-assign-the-zone-object-to-the-prime-ball-controller">2.  Assign The Zone Object To The Prime Ball Controller</a>
+    <li class="toctree-l2"><a class="reference internal" href="#2-assign-the-zone-object-to-the-zone-game-manager">2.  Assign The Zone Object To The Zone Game Manager</a>
     </li>
     </ul>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../camera-zone-options/">Camera Zone Options</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../camera-zone-options/">Zone Options</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Local Multiplayer</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../multiplayer/multiplayer/">Overview</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Modifying The Sphere Mesh</span></p>
@@ -121,7 +151,7 @@
                   <li class="toctree-l1"><a class="reference internal" href="../../modify_mesh/custom-mesh/">Using Your Own Mesh</a>
                   </li>
               </ul>
-              <p class="caption"><span class="caption-text">Modifying The PlayerSphere Object</span></p>
+              <p class="caption"><span class="caption-text">Modifying The Player Object</span></p>
               <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../../playersphere_object/structure-overview/">Structure Overview</a>
                   </li>
@@ -140,8 +170,8 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-          <li>Camera Zones &raquo;</li>
-      <li>Creating A Camera Zone</li>
+          <li>Zones &raquo;</li>
+      <li>Creating A Zone</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -150,11 +180,11 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="create-camera-zones">Create Camera Zones<a class="headerlink" href="#create-camera-zones" title="Permanent link">&para;</a></h1>
-<p>There are multiple ways you could create camera zones.  This is just an example of how I like to do it.  This guide will show you how to setup a stationary camera zone.</p>
+                <h1 id="creating-zones">Creating Zones<a class="headerlink" href="#creating-zones" title="Permanent link">&para;</a></h1>
+<p>There are multiple ways you could create zones.  This is just an example of how I like to do it.  This guide will show you how to setup a stationary camera zone.  For additional reference, check out the demo scene and examine how each zone was setup.</p>
 <h2 id="1-create-the-zone-object">1.  Create The Zone Object<a class="headerlink" href="#1-create-the-zone-object" title="Permanent link">&para;</a></h2>
 <ol>
-<li>Begin by creating a empty game object called Camera Zones.  This will keep all of your zones nice and neat.<br/>
+<li>Begin by creating a empty game object called Camera Zones.  This will keep all of your zones organized.<br/>
 <img alt="Camera Zone 1" src="../../images/camerazone1.png" /></li>
 <li>Remember to zero out your empty game object if not already done.<br/>
 <img alt="Camera Zone 2" src="../../images/camerazone2.png" /></li>
@@ -171,10 +201,11 @@
 <li>Select the <strong>Camera Position</strong> game object, then select game object-&gt;Align With View from the File Menu
 <img alt="Camera Zone 6" src="../../images/camerazone6.png" /></li>
 </ol>
-<h2 id="2-assign-the-zone-object-to-the-prime-ball-controller">2.  Assign The Zone Object To The Prime Ball Controller<a class="headerlink" href="#2-assign-the-zone-object-to-the-prime-ball-controller" title="Permanent link">&para;</a></h2>
+<h2 id="2-assign-the-zone-object-to-the-zone-game-manager">2.  Assign The Zone Object To The Zone Game Manager<a class="headerlink" href="#2-assign-the-zone-object-to-the-zone-game-manager" title="Permanent link">&para;</a></h2>
 <ol>
-<li>Go to your PlayerSphere object and find Camera Zones under the Pbc Manager script component</li>
-<li>Click the plus sign to add a zone.  You should now see 1 item in your list named Element 0.  Expand Element 0 to display the configuration options.<br/>
+<li>Drag the <strong>Zones prefab</strong> located at <strong>Assets/MagaericSolutions/Prime Ball Controller/Prefabs</strong> into your scene hierarchy</li>
+<li>Select the Zones object and find the Zones Game Data under the Zone Game Manager Script Component</li>
+<li>Click the plus sign to add a zone, or modify the existing Template zone<br/>
 <img alt="Camera Zone 7" src="../../images/camerazone7.png" /></li>
 <li>Give the zone a name</li>
 <li>Drag the zone plane you created back in section 1 step 3 into the Zone Area</li>
@@ -189,7 +220,7 @@
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
         <a href="../overview/" class="btn btn-neutral float-left" title="Overview"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../camera-zone-options/" class="btn btn-neutral float-right" title="Camera Zone Options">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../camera-zone-options/" class="btn btn-neutral float-right" title="Zone Options">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>

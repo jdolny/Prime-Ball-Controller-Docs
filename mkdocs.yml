@@ -13,7 +13,7 @@ markdown_extensions:
 
 nav:
 - 'Welcome': index.md
-- 'Playable Demo': http://primeballcontroller.com/demo
+- 'Playable Demos': demo/demo.md
 - 'Download from Unity Asset Store': https://assetstore.unity.com/packages/tools/physics/prime-ball-controller-229154/
 - 'Help and Support': support.md
 - 'Roadmap': roadmap.md
@@ -24,24 +24,38 @@ nav:
   - 'Detailed Setup': installation/detailed-installation.md
   - 'Setup With Existing Cinemachine': installation/installation-previous-cinemachine.md
   - 'Using Different Render Pipelines': installation/builtin-urp-hdrp.md
-- 'Player Sphere Controller Options': 
+  - 'Mobile Controls': mobile/control.md
+- 'Demo Scenes':
+  - 'Scenes': scenes/scenes.md
+- 'Controller Options': 
   - 'Overview': controller_options/overview.md
   - 'Input Mapping': controller_options/input-mapping.md
-  - 'Cinemachine Cameras': controller_options/cinemachine.md
-  - 'Standard Camera Settings': controller_options/standard-camera-settings.md
-  - 'Sphere Player': controller_options/sphere-player.md
-  - 'Sphere Movement': controller_options/sphere-movement.md
-  - 'Sphere Abilities': controller_options/sphere-abilities.md
-  - 'Mesh Rotation': controller_options/mesh-rotation.md
-  - 'Roll Audio': controller_options/roll-audio.md
-- 'Camera Zones': 
+  - 'Cameras': controller_options/cinemachine.md
+  - 'Free Look Camera': controller_options/standard-camera-settings.md
+  - 'Projectile Camera': controller_options/projectilecamera.md
+  - 'Fps Camera': controller_options/fpscamera.md
+  - 'Sphere': controller_options/sphere-player.md
+  - 'Mesh': controller_options/mesh-rotation.md
+  - 'Movement': controller_options/sphere-movement.md
+  - 'Gravity': controller_options/gravity.md
+  - 'Jump': controller_options/jump.md
+  - 'Boost': controller_options/boost.md
+  - 'Boost Jump': controller_options/boostjump.md
+  - 'Sprint': controller_options/sprint.md
+  - 'Magnet': controller_options/magnet.md
+  - 'Grapple Swing': controller_options/grappleswing.md
+  - 'Grapple Hook': controller_options/grapplehook.md
+  - 'Projectile': controller_options/projectile.md
+- 'Zones': 
   - 'Overview': camera_zones/overview.md
-  - 'Creating A Camera Zone': camera_zones/create-zone.md
-  - 'Camera Zone Options': camera_zones/camera-zone-options.md
+  - 'Creating A Zone': camera_zones/create-zone.md
+  - 'Zone Options': camera_zones/camera-zone-options.md
+- 'Local Multiplayer': 
+  - 'Overview': multiplayer/multiplayer.md
 - 'Modifying The Sphere Mesh':
   - 'Change Size / Color': modify_mesh/size-color.md
   - 'Using Your Own Mesh': modify_mesh/custom-mesh.md
-- 'Modifying The PlayerSphere Object':
+- 'Modifying The Player Object':
   - 'Structure Overview': playersphere_object/structure-overview.md
 
 extra_css: [style.css]

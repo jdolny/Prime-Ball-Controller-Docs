@@ -46,7 +46,7 @@
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="" href="http://primeballcontroller.com/demo">Playable Demo</a>
+                <li class="toctree-l1"><a class="reference internal" href="../../demo/demo/">Playable Demos</a>
                 </li>
               </ul>
               <ul>
@@ -77,8 +77,15 @@
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../../installation/builtin-urp-hdrp/">Using Different Render Pipelines</a>
                   </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../mobile/control/">Mobile Controls</a>
+                  </li>
               </ul>
-              <p class="caption"><span class="caption-text">Player Sphere Controller Options</span></p>
+              <p class="caption"><span class="caption-text">Demo Scenes</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../scenes/scenes/">Scenes</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Controller Options</span></p>
               <ul class="current">
                   <li class="toctree-l1"><a class="reference internal" href="../overview/">Overview</a>
                   </li>
@@ -86,28 +93,51 @@
     <ul class="current">
     </ul>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../cinemachine/">Cinemachine Cameras</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../cinemachine/">Cameras</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../standard-camera-settings/">Standard Camera Settings</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../standard-camera-settings/">Free Look Camera</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../sphere-player/">Sphere Player</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../projectilecamera/">Projectile Camera</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../sphere-movement/">Sphere Movement</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../fpscamera/">Fps Camera</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../sphere-abilities/">Sphere Abilities</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../sphere-player/">Sphere</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../mesh-rotation/">Mesh Rotation</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../mesh-rotation/">Mesh</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../roll-audio/">Roll Audio</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../sphere-movement/">Movement</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gravity/">Gravity</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../jump/">Jump</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../boost/">Boost</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../boostjump/">Boost Jump</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../sprint/">Sprint</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../magnet/">Magnet</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../grappleswing/">Grapple Swing</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../grapplehook/">Grapple Hook</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../projectile/">Projectile</a>
                   </li>
               </ul>
-              <p class="caption"><span class="caption-text">Camera Zones</span></p>
+              <p class="caption"><span class="caption-text">Zones</span></p>
               <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../../camera_zones/overview/">Overview</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../camera_zones/create-zone/">Creating A Camera Zone</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../camera_zones/create-zone/">Creating A Zone</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../camera_zones/camera-zone-options/">Camera Zone Options</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../camera_zones/camera-zone-options/">Zone Options</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Local Multiplayer</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../multiplayer/multiplayer/">Overview</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Modifying The Sphere Mesh</span></p>
@@ -117,7 +147,7 @@
                   <li class="toctree-l1"><a class="reference internal" href="../../modify_mesh/custom-mesh/">Using Your Own Mesh</a>
                   </li>
               </ul>
-              <p class="caption"><span class="caption-text">Modifying The PlayerSphere Object</span></p>
+              <p class="caption"><span class="caption-text">Modifying The Player Object</span></p>
               <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../../playersphere_object/structure-overview/">Structure Overview</a>
                   </li>
@@ -136,7 +166,7 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-          <li>Player Sphere Controller Options &raquo;</li>
+          <li>Controller Options &raquo;</li>
       <li>Input Mapping</li>
     <li class="wy-breadcrumbs-aside">
     </li>
@@ -147,22 +177,28 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="input-mapping">Input Mapping<a class="headerlink" href="#input-mapping" title="Permanent link">&para;</a></h1>
-<p>Input mapping allows you to adjust the input controls for the sphere.  The default values should allow both a Gamepad and Mouse / Keyboard to work by default.  Prime Ball Controller currently uses the old input system but can easily be changed to the new input
-system by modifying the <strong>Input Manager</strong> script.  The default controls are:</p>
+<p>Prime Ball Controller uses the new Input System package.  An <strong>Input Action Asset</strong> has already been configured for you and has 2 Control schemes supporting both Keyboard / Mouse and Gamepad.  The Player Input Action can be found at:<br/>
+<strong>Assets-&gt;MagaericSolutions-&gt;Prime Ball Controller-&gt;Player-&gt;InputActions-&gt;PlayerInputAction</strong></p>
+<p><img alt="input" src="../../images/inputaction.png" /></p>
+<p>If you open the PlayerInputAction, you can easily modify the controls.  If you need extra help modifying the controls, check out the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@1.0/manual/ActionAssets.html">Unity Documentation on Input Action Assets</a></p>
+<p>The default controls are:</p>
 <p><strong>Move</strong> - WASD</p>
 <p><strong>Jump</strong> - Space</p>
 <p><strong>Magnet Climb</strong> - Hold Right Mouse Button</p>
 <p><strong>Sprint</strong> - Hold Left Mouse Button</p>
 <p><strong>Boost</strong> - Hold Middle Mouse To Charge, Release To Boost</p>
-<p><strong>Rotate Camera</strong> - Hold Left Mouse Button, While Stationary and Move Mouse</p>
-<p><strong>Free Look / FPS Camera</strong> - Hold Right Mouse Button, While Stationary and Move Mouse</p>
-<p>The <strong>Rotate Camera</strong> and <strong>Free Look Camera</strong> buttons are by default shared with <strong>Sprint</strong> and <strong>Magnet</strong> buttons.  Ideally these should be seperate buttons, but was included this way with the prefab to make things simple.</p>
+<p><strong>Free Look Camera</strong> - Hold Left Mouse Button, and Move Mouse</p>
+<p><strong>FPS Camera</strong> - Hold Right Mouse Button, While Stationary and Move Mouse</p>
+<p><strong>Projectile Camera</strong> – Hold left shift</p>
+<p><strong>Fire projectile</strong> – Left mouse button while projectile camera is active</p>
+<p><strong>Boost Jump</strong> – Middle mouse button while projectile camera is active</p>
+<p><strong>Grapple</strong> – Right mouse button while projectile camera is active</p>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
         <a href="../overview/" class="btn btn-neutral float-left" title="Overview"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../cinemachine/" class="btn btn-neutral float-right" title="Cinemachine Cameras">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../cinemachine/" class="btn btn-neutral float-right" title="Cameras">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>

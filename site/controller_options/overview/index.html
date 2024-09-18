@@ -46,7 +46,7 @@
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="" href="http://primeballcontroller.com/demo">Playable Demo</a>
+                <li class="toctree-l1"><a class="reference internal" href="../../demo/demo/">Playable Demos</a>
                 </li>
               </ul>
               <ul>
@@ -77,8 +77,15 @@
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../../installation/builtin-urp-hdrp/">Using Different Render Pipelines</a>
                   </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../mobile/control/">Mobile Controls</a>
+                  </li>
               </ul>
-              <p class="caption"><span class="caption-text">Player Sphere Controller Options</span></p>
+              <p class="caption"><span class="caption-text">Demo Scenes</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../scenes/scenes/">Scenes</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Controller Options</span></p>
               <ul class="current">
                   <li class="toctree-l1 current"><a class="reference internal current" href="./">Overview</a>
     <ul class="current">
@@ -86,28 +93,51 @@
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../input-mapping/">Input Mapping</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../cinemachine/">Cinemachine Cameras</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../cinemachine/">Cameras</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../standard-camera-settings/">Standard Camera Settings</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../standard-camera-settings/">Free Look Camera</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../sphere-player/">Sphere Player</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../projectilecamera/">Projectile Camera</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../sphere-movement/">Sphere Movement</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../fpscamera/">Fps Camera</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../sphere-abilities/">Sphere Abilities</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../sphere-player/">Sphere</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../mesh-rotation/">Mesh Rotation</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../mesh-rotation/">Mesh</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../roll-audio/">Roll Audio</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../sphere-movement/">Movement</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gravity/">Gravity</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../jump/">Jump</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../boost/">Boost</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../boostjump/">Boost Jump</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../sprint/">Sprint</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../magnet/">Magnet</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../grappleswing/">Grapple Swing</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../grapplehook/">Grapple Hook</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../projectile/">Projectile</a>
                   </li>
               </ul>
-              <p class="caption"><span class="caption-text">Camera Zones</span></p>
+              <p class="caption"><span class="caption-text">Zones</span></p>
               <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../../camera_zones/overview/">Overview</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../camera_zones/create-zone/">Creating A Camera Zone</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../camera_zones/create-zone/">Creating A Zone</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../camera_zones/camera-zone-options/">Camera Zone Options</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../camera_zones/camera-zone-options/">Zone Options</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Local Multiplayer</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../multiplayer/multiplayer/">Overview</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Modifying The Sphere Mesh</span></p>
@@ -117,7 +147,7 @@
                   <li class="toctree-l1"><a class="reference internal" href="../../modify_mesh/custom-mesh/">Using Your Own Mesh</a>
                   </li>
               </ul>
-              <p class="caption"><span class="caption-text">Modifying The PlayerSphere Object</span></p>
+              <p class="caption"><span class="caption-text">Modifying The Player Object</span></p>
               <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../../playersphere_object/structure-overview/">Structure Overview</a>
                   </li>
@@ -136,7 +166,7 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-          <li>Player Sphere Controller Options &raquo;</li>
+          <li>Controller Options &raquo;</li>
       <li>Overview</li>
     <li class="wy-breadcrumbs-aside">
     </li>
@@ -147,26 +177,34 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="controller-options-overview">Controller Options Overview<a class="headerlink" href="#controller-options-overview" title="Permanent link">&para;</a></h1>
-<p>The options to control the sphere are all located within a single location to make it easier to find what you need to change, no need to hop around to different scripts looking for settings to change.  They can all be found on the Pbc Manager script component
- that is attached to the PlayerSphere object, under Data Repository.<br/></p>
+<p>The options to control the sphere are all located within a single location to make it easier to find what you need to change.  They can all be found on the Sphere Director script component
+ that is attached to the Player-&gt;Sphere object, under Sphere Data Repository.<br/></p>
 <p><img alt="Options Overview" src="../../images/optionsoverview.png" /></p>
 <p>They include:</p>
 <ul>
-<li>Input Mapping</li>
-<li>Cinemachine Cameras</li>
-<li>Standard Camera Settings</li>
-<li>Sphere Player</li>
-<li>Sphere Movement</li>
-<li>Sphere Abilities</li>
-<li>Mesh Rotation</li>
-<li>Roll Audio</li>
+<li>Cameras</li>
+<li>Free Look Camera</li>
+<li>Projectile Camera</li>
+<li>Fps Camera</li>
+<li>Sphere</li>
+<li>Mesh</li>
+<li>Movement</li>
+<li>Gravity</li>
+<li>Jump</li>
+<li>Boost</li>
+<li>Boost Jump</li>
+<li>Sprint</li>
+<li>Magnet</li>
+<li>Grapple Swing</li>
+<li>Grapple Hook</li>
+<li>Projectile</li>
 </ul>
 <p>Use the TOC for detailed information about each option.  They also have tooltips in the editor to explain their purpose.</p>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../../installation/builtin-urp-hdrp/" class="btn btn-neutral float-left" title="Using Different Render Pipelines"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../scenes/scenes/" class="btn btn-neutral float-left" title="Scenes"><span class="icon icon-circle-arrow-left"></span> Previous</a>
         <a href="../input-mapping/" class="btn btn-neutral float-right" title="Input Mapping">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
@@ -190,7 +228,7 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../../installation/builtin-urp-hdrp/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../../scenes/scenes/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
       <span><a href="../input-mapping/" style="color: #fcfcfc">Next &raquo;</a></span>

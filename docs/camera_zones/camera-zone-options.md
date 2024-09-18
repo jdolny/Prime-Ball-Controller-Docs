@@ -1,4 +1,6 @@
-#Camera Zone Options
+#Zone Options
+
+Once the zone is created, you can modify various options to control how the zone / player behaves.
 
 - **Zone Area** - The area that will activate the zone.  This should be a plane with the mesh renderer removed and the collider set to trigger.
 - **Camera Blend Time** - When entering a zone, the time it takes to blend to the new camera

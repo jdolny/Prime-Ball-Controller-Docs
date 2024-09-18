@@ -1,10 +1,10 @@
-#Create Camera Zones
+#Creating Zones
 
-There are multiple ways you could create camera zones.  This is just an example of how I like to do it.  This guide will show you how to setup a stationary camera zone.
+There are multiple ways you could create zones.  This is just an example of how I like to do it.  This guide will show you how to setup a stationary camera zone.  For additional reference, check out the demo scene and examine how each zone was setup.
 
 ## 1.  Create The Zone Object
 
-1.  Begin by creating a empty game object called Camera Zones.  This will keep all of your zones nice and neat.<br/>
+1.  Begin by creating a empty game object called Camera Zones.  This will keep all of your zones organized.<br/>
 ![Camera Zone 1](../images/camerazone1.png)
 2.  Remember to zero out your empty game object if not already done.<br/>
 ![Camera Zone 2](../images/camerazone2.png)
@@ -21,9 +21,10 @@ There are multiple ways you could create camera zones.  This is just an example 
 10.  Select the **Camera Position** game object, then select game object->Align With View from the File Menu
 ![Camera Zone 6](../images/camerazone6.png)
 
-## 2.  Assign The Zone Object To The Prime Ball Controller
-1.  Go to your PlayerSphere object and find Camera Zones under the Pbc Manager script component
-2.  Click the plus sign to add a zone.  You should now see 1 item in your list named Element 0.  Expand Element 0 to display the configuration options.<br/>
+## 2.  Assign The Zone Object To The Zone Game Manager
+1.  Drag the **Zones prefab** located at **Assets/MagaericSolutions/Prime Ball Controller/Prefabs** into your scene hierarchy
+1.  Select the Zones object and find the Zones Game Data under the Zone Game Manager Script Component
+2.  Click the plus sign to add a zone, or modify the existing Template zone<br/>
 ![Camera Zone 7](../images/camerazone7.png)
 3.  Give the zone a name
 4.  Drag the zone plane you created back in section 1 step 3 into the Zone Area

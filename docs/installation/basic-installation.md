@@ -1,10 +1,8 @@
 # Basic Installation Directions
 
-In the following sequence, steps 1 and 2 are interchangable.  It doesn't matter if Cinemachine is installed before you import Prime Ball Controller.
-
-1.  Install Cinemachine
-2.  Import the Prime Ball Controller Package 
-3.  Drag the PlayerSphere prefab into your scene.  The prefab is located at **Assets->Magaeric Solutions->Prime Ball Controller->PlayerSphere->Prefabs**.
+1.  Import the Prime Ball Controller Package
+2.  If prompted to install dependencies, select **Install / Upgrade**, this will automatically install Cinemachine and the Input System for you. 
+3.  Drag the **Player** prefab into your scene.  The prefab is located at **Assets->MagaericSolutions->Prime Ball Controller->Prefabs**.
 4.  If your scene already has a Main Camera, remove or disable it.  The prefab has all of the needed cameras included with it.  If your project is already using Cinemachine and you need to keep your existing Main Camera / Cinemachine Brain, 
 [follow these steps](../installation-previous-cinemachine).
 

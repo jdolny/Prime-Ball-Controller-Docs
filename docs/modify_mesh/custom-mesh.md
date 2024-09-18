@@ -10,4 +10,3 @@ Blender, it can be tricky to get the correct rotation.  When you import into Uni
 ![Custom Mesh 3](../images/custommesh3.png)<br/><br/>
 3.  Incorrect Way 2.  In this example, the rotation is set to 0, but the sphere is not pointing in the Z axis.  This will not work.<br/>
 ![Custom Mesh 4](../images/custommesh4.png)<br/><br/>
-4.  Finally, when you have your mesh imported correctly, you need to add the Mesh Rotation Controller script to your mesh.

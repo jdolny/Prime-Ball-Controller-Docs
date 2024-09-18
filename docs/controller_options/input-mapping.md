@@ -1,7 +1,13 @@
 #Input Mapping
 
-Input mapping allows you to adjust the input controls for the sphere.  The default values should allow both a Gamepad and Mouse / Keyboard to work by default.  Prime Ball Controller currently uses the old input system but can easily be changed to the new input
-system by modifying the **Input Manager** script.  The default controls are:
+Prime Ball Controller uses the new Input System package.  An **Input Action Asset** has already been configured for you and has 2 Control schemes supporting both Keyboard / Mouse and Gamepad.  The Player Input Action can be found at:<br/>
+**Assets->MagaericSolutions->Prime Ball Controller->Player->InputActions->PlayerInputAction**
+
+ ![input](../images/inputaction.png)
+
+If you open the PlayerInputAction, you can easily modify the controls.  If you need extra help modifying the controls, check out the [Unity Documentation on Input Action Assets](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.0/manual/ActionAssets.html)
+
+The default controls are:
 
 **Move** - WASD
 
@@ -13,8 +19,16 @@ system by modifying the **Input Manager** script.  The default controls are:
 
 **Boost** - Hold Middle Mouse To Charge, Release To Boost
 
-**Rotate Camera** - Hold Left Mouse Button, While Stationary and Move Mouse
+**Free Look Camera** - Hold Left Mouse Button, and Move Mouse
 
-**Free Look / FPS Camera** - Hold Right Mouse Button, While Stationary and Move Mouse
+**FPS Camera** - Hold Right Mouse Button, While Stationary and Move Mouse
 
-The **Rotate Camera** and **Free Look Camera** buttons are by default shared with **Sprint** and **Magnet** buttons.  Ideally these should be seperate buttons, but was included this way with the prefab to make things simple.
+**Projectile Camera** – Hold left shift
+
+**Fire projectile** – Left mouse button while projectile camera is active
+
+**Boost Jump** – Middle mouse button while projectile camera is active
+
+**Grapple** – Right mouse button while projectile camera is active
+
+
